@@ -8,7 +8,7 @@ pipeline {
         ACR_NAME = "acrglobalcicd"
         ACR_LOGIN_SERVER = "${ACR_NAME}.azurecr.io"
         IMAGE_NAME = "my-nodejs-app-${APELLIDO}"
-        RESOURCE_GROUP = "rg-cicd-terraform-app-araujobm"
+        RESOURCE_GROUP = "rg-cicd-terraform-app-araujobmw"
         AKS_NAME = "aks-dev-eastus"
     }
 
