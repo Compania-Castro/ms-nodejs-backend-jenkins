@@ -22,7 +22,7 @@ pipeline {
                 }
                 // Primer step
                 sh '''
-                  echo ">>> Impresión Hello world"
+                  echo ">>> Impresión Hello world "
                   echo "Hello world"
                   echo "Variable declarada en script: $VARIABLE"
                   echo "Variable declarada en environment: $APELLIDO"
